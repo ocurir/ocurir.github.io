@@ -146,3 +146,10 @@ html {
     width: 100%;
   }
 }
+
+@media (max-width: 694px) {
+  .cover_image {
+    height: 390px;
+    width: auto;
+  }
+}
