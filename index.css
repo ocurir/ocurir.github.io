@@ -1,0 +1,148 @@
+/*
+colors:
+  orange: #f47814
+  pink: #c82cf4
+  purple: #603474
+  almost white: #e5e5e5
+  almost black: #262626
+  yellow: #C6C23D
+*/
+
+* {
+  cursor: default;
+}
+
+html {
+  background-color: #e5e5e5;
+  font-family: Lato;
+  color: #262626;
+}
+
+.cover_image_box {
+  position: absolute;
+  left: 0; /* just for firefox */
+  z-index: -1;
+  width: 100%;
+  overflow: hidden;
+}
+
+.cover_image {
+  width: 100%;
+}
+
+.cross {
+  margin-top: 50px;
+}
+
+.title {
+  font-size: 55px;
+  margin-top: 20px;
+  font-weight: 300;
+  background-color: #c82cf4;
+  width: 100%;
+  text-align: center;
+  margin-bottom: 0;
+}
+
+.subtitle {
+  background-color: #e5e5e5;
+  width: 100%;
+  text-align: center;
+  padding: 23.5px 0;
+  margin-top: 0;
+  margin-bottom: 86.85px;
+}
+
+.social_media {
+  background-color: #f47814;
+  padding: 20px 0;
+
+  /* just for firefox */
+  height: 255px;
+  box-sizing: border-box;
+
+  -webkit-flex-grow: 1;
+  flex-grow: 1;
+}
+
+.professions {
+  background-color: #c82cf4;
+}
+
+.interests {
+  background-color: #C6C23D;
+}
+
+.list_words {
+  margin: 10px 0;
+}
+
+.link {
+  background-color: #262626;
+  color: #e5e5e5;
+  padding: 7px;
+  text-decoration: none;
+  margin: 5px 0;
+}
+
+.list_words:active {
+  background-color: black;
+}
+
+.list_title {
+  font-size: 30px;
+  font-weight: 300;
+  margin: 0;
+}
+
+.list {
+  padding: 20px;
+  text-align: center;
+
+  -webkit-flex-grow: 1;
+  flex-grow: 1;
+}
+
+.flex_column {
+  display: -webkit-flex;
+  display: flex;
+
+  -webkit-flex-direction: column;
+  flex-direction: column;
+
+  -webkit-align-items: center;
+  align-items: center;
+}
+
+.box_of_boxes {
+  display: -webkit-flex;
+  display: flex;
+
+  -webkit-flex-wrap: wrap;
+  flex-wrap: wrap;
+
+  width: 100%;
+  background-color: #603474;
+}
+
+.image {
+  height: 255px;
+}
+
+@media (max-width: 373px) {
+  .title {
+    font-size: 45px;
+  }
+}
+
+@media (max-width: 865px) {
+  .social_media {
+    width: 100%;
+  }
+}
+
+@media (max-width: 665px) {
+  .saplings {
+    width: 100%;
+  }
+}
