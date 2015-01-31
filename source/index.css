@@ -18,6 +18,10 @@ html {
   color: #262626;
 }
 
+body {
+  margin: 0;
+}
+
 .cover_image_box {
   position: absolute;
   left: 0; /* just for firefox */
