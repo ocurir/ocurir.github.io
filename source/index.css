@@ -58,7 +58,7 @@ html {
   padding: 20px 0;
 
   /* just for firefox */
-  height: 255px;
+  height: 298px;
   box-sizing: border-box;
 
   -webkit-flex-grow: 1;
@@ -126,7 +126,7 @@ html {
 }
 
 .image {
-  height: 255px;
+  height: 298px;
 }
 
 @media (max-width: 373px) {
