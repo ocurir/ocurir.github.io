@@ -55,7 +55,7 @@ html {
 
 .social_media {
   background-color: #f47814;
-  padding: 20px 0;
+  padding: 20px;
 
   /* just for firefox */
   height: 298px;
@@ -141,7 +141,7 @@ html {
   }
 }
 
-@media (max-width: 665px) {
+@media (max-width: 777px) {
   .saplings {
     width: 100%;
   }
