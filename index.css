@@ -69,6 +69,10 @@ body {
   flex-grow: 1;
 }
 
+.first_box {
+  background-color: #603474;
+}
+
 .professions {
   background-color: #c82cf4;
 }
