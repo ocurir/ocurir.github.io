@@ -10,6 +10,7 @@
     story = $(event.target).parent();
     story_content = story.html();
     $('.article').html(story_content);
+    $('p').show();
     return $('.article').show();
   };
 
